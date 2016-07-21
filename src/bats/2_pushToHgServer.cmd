@@ -1,0 +1,1 @@
+hgPush.cmd & 0_pullAll.cmd

@@ -1,0 +1,3 @@
+echo start building...
+"C:\Program Files (x86)\MSBuild\14.0\Bin\amd64\MSBuild.exe" "D:\Code\NG\Web\NetBrainNGServices\src\main\csharp\com.netbrain.ng.webservices.sln" /t:build
+echo build complete.

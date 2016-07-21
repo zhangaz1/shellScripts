@@ -1,0 +1,1 @@
+hgRevertWebConfig.cmd & hgUpdate.cmd & gitPushService.cmd & gitPushRelease.cmd & gitMergeReleaseToDev & buildNgService.cmd & useTestServer.cmd

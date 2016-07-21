@@ -1,0 +1,1 @@
+gitPushDev.cmd & gitMergeDevToRelease.cmd & hgRevertWebConfig.cmd & hgRevertWebConfig.cmd
