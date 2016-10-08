@@ -1,1 +1,1 @@
-useServer.cmd "10.10.7.104"
+useServer.cmd "10.10.3.50"
