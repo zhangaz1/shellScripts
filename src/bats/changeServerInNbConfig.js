@@ -24,5 +24,11 @@ if(redisServer) {
 	];
 }
 
+var mongoUser = argv[6];
+config.mongodb_servers.user = mongoUser || '';
+
+var mongoPassword = argv[7];
+config.mongodb_servers.password = mongoPassword || '';
+
 var fs = require('fs');
 fs.writeFile(configFile, JSON.stringify(config));
