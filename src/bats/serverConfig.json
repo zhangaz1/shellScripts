@@ -1,0 +1,134 @@
+{
+    "default": {
+        "__comment__": "see fix_NBConfig.json file for more settings",
+        "amqp_servers": {
+            "servers_URL": ["10.10.3.18"],
+            "user": "guest",
+            "password": "guest",
+            "port": 5672,
+            "tsl": false,
+            "cert_verification": "none"
+        },
+        "redis_servers": {
+            "servers_URL": ["10.10.3.18"],
+            "password": "",
+            "port": 6379,
+            "ssl": false,
+            "cert_verification": "none"
+        },
+        "mongodb_servers": {
+            "servers_URL": ["10.10.3.17:27017"],
+            "replicaSet": "",
+            "ssl": false,
+            "cert_verification": "none",
+            "user": "mongodb",
+            "password": "mongodb"
+        }
+    },
+    "cgc": {
+        "__comment__": "see fix_NBConfig.json file for more settings",
+        "amqp_servers": {
+            "servers_URL": ["10.10.0.38"],
+            "user": "guest",
+            "password": "guest",
+            "port": 5672,
+            "tsl": false,
+            "cert_verification": "none"
+        },
+        "redis_servers": {
+            "servers_URL": ["10.10.0.38"],
+            "password": "",
+            "port": 6379,
+            "ssl": false,
+            "cert_verification": "none"
+        },
+        "mongodb_servers": {
+            "servers_URL": ["10.10.3.50:27017"],
+            "replicaSet": "",
+            "ssl": false,
+            "cert_verification": "none",
+            "user": "",
+            "password": ""
+        }
+    },
+    "lwb": {
+        "__comment__": "see fix_NBConfig.json file for more settings",
+        "amqp_servers": {
+            "servers_URL": ["10.10.0.38"],
+            "user": "guest",
+            "password": "guest",
+            "port": 5672,
+            "tsl": false,
+            "cert_verification": "none"
+        },
+        "redis_servers": {
+            "servers_URL": ["10.10.0.38"],
+            "password": "",
+            "port": 6379,
+            "ssl": false,
+            "cert_verification": "none"
+        },
+        "mongodb_servers": {
+            "servers_URL": ["10.10.0.38:27017"],
+            "replicaSet": "",
+            "ssl": false,
+            "cert_verification": "none",
+            "user": "root",
+            "password": "root"
+        }
+    },
+    "wz": {
+        "__comment__": "see fix_NBConfig.json file for more settings",
+
+        "amqp_servers": {
+            "servers_URL": ["10.10.5.216"],
+            "user": "encrypted:ecxHmDIGj8w=",
+            "password": "encrypted:ecxHmDIGj8w=",
+            "port": 5672,
+            "tsl": false,
+            "cert_verification": "none"
+        },
+        "redis_servers": {
+            "servers_URL": ["10.10.5.216"],
+            "password": "encrypted:ecxHmDIGj8w=",
+            "port": 6379,
+            "ssl": false,
+            "cert_verification": "none"
+        },
+        "mongodb_servers": {
+            "servers_URL": ["10.10.5.104:27017"],
+            "user": "encrypted:jrJ2dxmOGDw=",
+            "password": "encrypted:jrJ2dxmOGDw=",
+            "replicaSet": "",
+            "ssl": false,
+            "cert_verification": "none"
+        }
+    },
+    "lxj": {
+        "__comment__": "see fix_NBConfig.json file for more settings",
+
+        "amqp_servers": {
+            "servers_URL": ["10.10.4.214"],
+            "user": "lixuejiao",
+            "password": "lixuejiao",
+            "port": 5672,
+            "tsl": false,
+            "cert_verification": "verify_ca_no_limit"
+        },
+        "redis_servers": {
+            "servers_URL": ["10.10.4.214"],
+            "password": "lixuejiao",
+            "port": 6379,
+            "ssl": false,
+            "cert_verification": "verify_ca_no_limit"
+        },
+        "mongodb_servers": {
+            "servers_URL": ["10.10.4.213:27017"],
+            "user": "mongodb",
+            "password": "mongodb",
+            "replicaSet": "rs1",
+            "ssl": false,
+            "cert_verification": "verify_ca_no_limit"
+        }
+    }
+}
