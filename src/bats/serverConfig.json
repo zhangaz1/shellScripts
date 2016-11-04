@@ -130,5 +130,87 @@
             "ssl": false,
             "cert_verification": "verify_ca_no_limit"
         }
-    }
+    },
+	"7.38": {
+	   "__comment__": "see fix_NBConfig.json file for more settings",
+
+	   "amqp_servers":{
+		  "servers_URL":["10.10.7.38","10.10.7.37"],
+		  "user":"encrypted:L9ieTaiTRWQ=",
+		  "password":"encrypted:L9ieTaiTRWQ=",
+		  "port":5672,
+		  "tsl":false,
+		  "cert_verification":"none"
+	   },
+	   "redis_servers":{
+		  "servers_URL":["10.10.7.38"],
+		  "password":"encrypted:L9ieTaiTRWQ=",
+		  "port":6379,
+		  "ssl":false,
+		  "cert_verification":"none"
+	   },
+	   "mongodb_servers":{
+		  "servers_URL":["10.10.5.194:27017"],
+		  "user":"encrypted:L9ieTaiTRWQ=",
+		  "password":"encrypted:L9ieTaiTRWQ=",
+		  "replicaSet":"rs1",
+		  "ssl":false,
+		  "cert_verification":"none"
+	   }
+	},
+	"7.37": {
+	   "__comment__": "see fix_NBConfig.json file for more settings",
+
+	   "amqp_servers":{
+		  "servers_URL":["10.10.7.37"],
+		  "user":"encrypted:L9ieTaiTRWQ=",
+		  "password":"encrypted:L9ieTaiTRWQ=",
+		  "port":5672,
+		  "tsl":false,
+		  "cert_verification":"none"
+	   },
+	   "redis_servers":{
+		  "servers_URL":["10.10.7.37"],
+		  "password":"encrypted:L9ieTaiTRWQ=",
+		  "port":6379,
+		  "ssl":false,
+		  "cert_verification":"none"
+	   },
+	   "mongodb_servers":{
+		  "servers_URL":["10.10.5.194:27017"],
+		  "user":"encrypted:L9ieTaiTRWQ=",
+		  "password":"encrypted:L9ieTaiTRWQ=",
+		  "replicaSet":"rs1",
+		  "ssl":false,
+		  "cert_verification":"none"
+	   }
+	},
+	"7.103": {
+	   "__comment__": "see fix_NBConfig.json file for more settings",
+
+	   "amqp_servers":{
+		  "servers_URL":["10.10.7.103"],
+		  "user":"encrypted:KqiqnSXXZHo=",
+		  "password":"encrypted:suRrHHAHPt0=",
+		  "port":5672,
+		  "tsl":false,
+		  "cert_verification":"none"
+	   },
+	   "redis_servers":{
+		  "servers_URL":["10.10.7.103"],
+		  "password":"encrypted:hCrB@d8XyTzG3Ji4VChTPw==",
+		  "port":6379,
+		  "ssl":false,
+		  "cert_verification":"none"
+	   },
+	   "mongodb_servers":{
+		  "servers_URL":["10.10.7.104:27017"],
+		  "user":"encrypted:jrJ2dxmOGDw=",
+		  "password":"encrypted:jrJ2dxmOGDw=",
+		  "replicaSet":"rs1",
+		  "ssl":false,
+		  "cert_verification":"none"
+	   }
+	}
+
 }
